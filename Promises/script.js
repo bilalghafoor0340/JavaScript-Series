@@ -42,5 +42,8 @@
 //     console.log("Sorry your promise request is not full filled", err)
 // })
 let hello = ( ) => {
-    return new Promise(() => {})
+    return new Promise(() => {
+        console.log("its a promise!")
+    })
 }
+hello();
